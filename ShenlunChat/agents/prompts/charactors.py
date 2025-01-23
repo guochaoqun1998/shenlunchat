@@ -1,0 +1,3 @@
+PART_SPLITTER = "======"
+SUBPART_SPLITTER = "------"
+SUBPART_HALF_SPLITTER = "---"

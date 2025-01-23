@@ -1,0 +1,5 @@
+from ShenlunChat.agents.prompts.demonstration.base import DemonstrationBase, ExampleBase
+
+from ShenlunChat.agents.prompts.demonstration.split_points import SplitPointsDemonstration
+from ShenlunChat.agents.prompts.demonstration.split_small_points import SplitSmallPointsDemonstration
+from ShenlunChat.agents.prompts.demonstration.compare_with_standard_answers import CompareWithStandardAnswersDemonstration

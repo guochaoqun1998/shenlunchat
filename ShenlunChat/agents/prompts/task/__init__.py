@@ -1,0 +1,3 @@
+from ShenlunChat.agents.prompts.task.split_point_task import SplitPointTask
+from ShenlunChat.agents.prompts.task.split_small_point_task import SplitSmallPointTask
+from ShenlunChat.agents.prompts.task.compare_with_standard_answers import CompareWithStandardAnswersTask
