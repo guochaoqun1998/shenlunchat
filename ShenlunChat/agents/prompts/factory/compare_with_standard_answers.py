@@ -20,6 +20,6 @@ class CompareWithStandardAnswersPromptFactory(PromptFactoryBase):
 
 if __name__ == "__main__": 
     prompt = CompareWithStandardAnswersPromptFactory.generate_prompt_template(prompt_type="prompt")
-    # prompt.format_prompt(content="学生在公务员考试中一道题的答案")
-    # print(prompt)
-    print(prompt.template)
+    prompt.format_prompt(point="学生在公务员考试中一道题的答案",standard_points=["标准答案1","标准答案2","标准答案3"],this_point="学生该点的答案")
+    print(prompt)
+    # print(prompt.template)
